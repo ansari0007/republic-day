@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua|Zhi+Mang+Xing&display=swap');
+body {
+    background:#000;
+
+}
+h1{
+    text-align:center;
+    font-size:4em;
+    font-family: 'Zhi Mang Xing', cursive;
+    letter-spacing:10px;
+    line-height:30px;
+}
+h2{
+    text-align:center;
+    font-size:2em;
+    font-family: 'Uncial Antiqua', cursive;
+    animation:india4 10s 1;
+    animation-delay:4s;
+}
+#flag{
+    width:300px;
+    height:150px;
+    border:2px solid white;
+}
+#top{
+    width:300px;
+    height:50px;
+    background:#ff9933;
+}
+#circle{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background:black;
+    padding:5px;
+}
+#middle{
+    width:300px;
+    height:50px;
+    background:#fff;
+}
+#bottom{
+    width:300px;
+    height:50px;
+    background:#138808;
+}
+
+
+
+.india1{
+    animation:india1 5s infinite;
+    animation-delay:1s;
+}
+.india2{
+    animation:india2 5s infinite;
+    animation-delay:2s;
+}
+.india3{
+    animation:india3 5s infinite;
+    animation-delay:3s;
+}
+
+
+@keyframes india1{
+    from{
+        color:black;
+        
+    }
+    to{
+        color:#ff9933;
+        
+    }
+}
+@keyframes india2{
+    from{
+        color:black;
+    }
+    to{
+        color:white;
+    }
+}
+@keyframes india3{
+    from{
+        color:black;
+    }
+    to{
+        color:#138808;
+    }
+}
+@keyframes india4{
+    100%{
+        color:red;
+    }
+}
+
